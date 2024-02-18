@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Patrick+Hand+SC&display=swap");
+
+html {
+  background-color: $primary-accent;
+}
+
+body {
+  margin: 0;
+  background-color: transparent;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: lightgray;
+  height: 100vh;
+  line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $title-color;
+  font-family: $title-font-family;
+  font-weight: $title-font-weight;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.1rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a[target="_blank"]::after {
+  content: "\231D";
+}
