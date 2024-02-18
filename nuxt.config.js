@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
   css: ["~/../assets/css/main.scss"],
   devtools: { enabled: true },
   ssr: false,
@@ -13,4 +13,4 @@ export default defineNuxtConfig({
       },
     },
   },
-});
+};
