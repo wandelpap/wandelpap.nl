@@ -28,16 +28,16 @@ export default {
   data() {
     return {
       color: this.backgroundColor,
-      inner_padding: this.inner_padding,
-      inner_padding_mobile: this.inner_padding_mobile,
+      inner_padding: this.innerPadding,
+      inner_padding_mobile: this.innerPaddingMobile,
     };
   },
   computed: {
     cssVars() {
       return {
-        "--color": this.backgroundColor,
-        "--inner-padding": this.inner_padding,
-        "--inner-padding-mobile": this.inner_padding_mobile,
+        "--color": this.color,
+        "--inner-padding": this.innerPadding,
+        "--inner-padding-mobile": this.innerPaddingMobile,
       };
     },
   },

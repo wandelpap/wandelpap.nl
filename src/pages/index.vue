@@ -8,7 +8,7 @@ useNuxtApp().$structuredData(website);
   <div>
     <PageBlock
       class="intro-text"
-      inner_padding="0"
+      inner-padding="0"
       inner_padding_mobile="0 2rem"
     >
       <span>Samen de wereld ontdekken, <br />stap voor stap.</span>

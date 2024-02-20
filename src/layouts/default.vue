@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageBlock class="header" inner_padding="0" inner_padding_mobile="0 2rem">
+    <PageBlock inner-padding="0" inner-padding_mobile="0 3rem">
       <div>
         <span class="title">Wandelpap</span>
       </div>
