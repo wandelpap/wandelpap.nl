@@ -24,12 +24,18 @@ export default {
       type: String,
       default: "2rem",
     },
+    justifyContent: {
+      required: false,
+      type: String,
+      default: "center",
+    },
   },
   data() {
     return {
       color: this.backgroundColor,
       inner_padding: this.innerPadding,
       inner_padding_mobile: this.innerPaddingMobile,
+      justify_content: this.justifyContent,
     };
   },
   computed: {
@@ -38,6 +44,7 @@ export default {
         "--color": this.color,
         "--inner-padding": this.innerPadding,
         "--inner-padding-mobile": this.innerPaddingMobile,
+        "--justify-content": this.justifyContent,
       };
     },
   },
@@ -56,8 +63,7 @@ export default {
   .inner {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
+    justify-content: var(--justify-content);
     width: 100%;
     max-width: 960px;
   }

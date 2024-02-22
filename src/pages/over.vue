@@ -6,7 +6,7 @@ definePageMeta({
 
 <template>
   <div>
-    <PageBlock inner-padding="0">
+    <PageBlock inner-padding="0" justify-content="start">
       <h1>Over Wandelpap</h1>
 
       <p>

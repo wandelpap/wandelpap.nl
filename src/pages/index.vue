@@ -10,6 +10,7 @@ useNuxtApp().$structuredData(website);
       class="intro-text"
       inner-padding="0"
       inner_padding_mobile="0 2rem"
+      justify-content="start"
     >
       <span>Samen de wereld ontdekken, <br />stap voor stap.</span>
     </PageBlock>
@@ -18,7 +19,7 @@ useNuxtApp().$structuredData(website);
 
 <style lang="scss" scoped>
 .intro-text {
-  font-size: 2.75em;
+  font-size: 2.5em;
   font-weight: 400;
   height: 20vh;
 
