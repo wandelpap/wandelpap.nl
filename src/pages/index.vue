@@ -18,7 +18,7 @@ useNuxtApp().$structuredData(website);
 
 <style lang="scss" scoped>
 .intro-text {
-  font-size: 3em;
+  font-size: 2.75em;
   font-weight: 400;
   height: 20vh;
 
