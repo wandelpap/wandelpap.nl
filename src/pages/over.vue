@@ -16,9 +16,11 @@ definePageMeta({
         ontdekt te worden. Kom mee op pad en beleef samen de natuur met
         Wandelpap.
       </p>
-
+    </PageBlock>
+    <PageBlock theme="light">
+      <h1>Contact</h1>
       <p>
-        <a href="mailto:wandelpap@gmail.com">wandelpap&commat;gmail.com</a>
+        Email: <a href="mailto:wandelpap@gmail.com">wandelpap&commat;gmail.com</a>
       </p>
     </PageBlock>
   </div>

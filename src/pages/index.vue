@@ -21,17 +21,13 @@ useNuxtApp().$structuredData(website);
 .intro-text {
   font-size: 2.5em;
   font-weight: 400;
-  height: 20vh;
+  min-height: 35vh;
 
   span {
     color: $title-color;
     font-family: $title-font-family;
     font-weight: $title-font-weight;
     line-height: 3rem;
-  }
-
-  @media (max-aspect-ratio: 3/4) {
-    height: 35vh;
   }
 }
 </style>

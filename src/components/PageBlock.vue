@@ -1,5 +1,5 @@
 <template>
-  <div class="page-block" :style="cssVars">
+  <div class="page-block" :style="cssVars" :class="`theme-${theme}`">
     <div class="inner">
       <slot></slot>
     </div>
@@ -9,15 +9,10 @@
 <script lang="ts">
 export default {
   props: {
-    backgroundColor: {
-      required: false,
-      type: String,
-      default: "transparent",
-    },
     innerPadding: {
       required: false,
       type: String,
-      default: "5rem 0",
+      default: "0",
     },
     innerPaddingMobile: {
       required: false,
@@ -29,10 +24,14 @@ export default {
       type: String,
       default: "center",
     },
+    theme: {
+      required: false,
+      type: String,
+      default: "dark",
+    },
   },
   data() {
     return {
-      color: this.backgroundColor,
       inner_padding: this.innerPadding,
       inner_padding_mobile: this.innerPaddingMobile,
       justify_content: this.justifyContent,
@@ -41,7 +40,6 @@ export default {
   computed: {
     cssVars() {
       return {
-        "--color": this.color,
         "--inner-padding": this.innerPadding,
         "--inner-padding-mobile": this.innerPaddingMobile,
         "--justify-content": this.justifyContent,
@@ -57,7 +55,6 @@ export default {
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--color);
   padding: var(--inner-padding);
 
   .inner {
