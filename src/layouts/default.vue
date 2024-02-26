@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageBlock inner-padding="0" inner-padding_mobile="0 3rem">
+    <PageBlock class="header" inner-padding="0" inner-padding_mobile="0 3rem">
       <div>
         <span class="title">Wandelpap</span>
       </div>
@@ -31,7 +31,7 @@
 
 .header {
   height: 15vh;
-  align-items: center;
+  min-height: 7.5rem;
 }
 
 .leader {
