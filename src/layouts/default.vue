@@ -12,6 +12,13 @@
         <slot />
       </div>
     </div>
+    <PageBlock>
+      <h1>Contact</h1>
+      <p>
+        Email:
+        <a href="mailto:wandelpap@gmail.com">wandelpap&commat;gmail.com</a>
+      </p>
+    </PageBlock>
   </div>
 </template>
 
