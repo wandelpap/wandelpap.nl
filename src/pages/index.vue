@@ -13,6 +13,13 @@ useNuxtApp().$structuredData(website);
     >
       <span>Samen de wereld ontdekken, <br />stap voor stap.</span>
     </PageBlock>
+
+    <iframe
+      src="https://www.komoot.com/nl-nl/collection/2579018/embed"
+      width="100%"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
   </div>
 </template>
 
@@ -28,5 +35,10 @@ useNuxtApp().$structuredData(website);
     font-weight: $title-font-weight;
     line-height: 3rem;
   }
+}
+
+iframe {
+  height: 80vh;
+  min-height: 500px;
 }
 </style>
