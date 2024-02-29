@@ -12,7 +12,7 @@
         <slot />
       </div>
     </div>
-    <PageBlock>
+    <PageBlock class="footer" justify-content="start">
       <h1>Contact</h1>
       <p>
         Email:
@@ -68,5 +68,9 @@
   .inner {
     width: 100%;
   }
+}
+
+.footer {
+  min-height: 300px;
 }
 </style>
