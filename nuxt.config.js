@@ -12,7 +12,7 @@ export default {
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', 'GTM-MGK4B79M');`,
+gtag('config', 'G-57CT6TZ3LB');`,
         },
       ],
     },
