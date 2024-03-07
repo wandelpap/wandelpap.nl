@@ -87,7 +87,7 @@ defineProps<{
     }
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: $landscape-width-page-break) {
     flex-direction: column;
 
     .details {

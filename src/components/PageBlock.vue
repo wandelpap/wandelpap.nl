@@ -49,7 +49,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .page-block {
   display: flex;
   width: 100%;
@@ -62,10 +62,10 @@ export default {
     flex-direction: column;
     justify-content: var(--justify-content);
     width: 100%;
-    max-width: 960px;
+    max-width: $landscape-width-page-break;
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: $landscape-width-page-break) {
     .inner {
       padding: var(--inner-padding-mobile);
     }

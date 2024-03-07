@@ -1,11 +1,12 @@
 <template>
   <div class="page">
-    <PageBlock class="header" inner-padding="0" inner-padding_mobile="0 3rem">
+    <!-- <PageBlock class="header" inner-padding="0" inner-padding_mobile="0 3rem">
       <div>
         <span class="title">Wandelpap</span>
       </div>
       <MainMenu />
-    </PageBlock>
+    </PageBlock> -->
+    <PageHeader class="header" />
     <div class="leader"></div>
     <div class="main">
       <div class="inner">
@@ -38,7 +39,7 @@
 
 .header {
   height: 15vh;
-  min-height: 7.5rem;
+  min-height: 100px;
 }
 
 .leader {
@@ -52,7 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 960px;
+    max-width: $landscape-width-page-break;
   }
 
   @media (max-aspect-ratio: 3/4) {

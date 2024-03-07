@@ -74,7 +74,6 @@ form {
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem;
 
   .row {
     display: flex;
@@ -92,7 +91,7 @@ form {
     }
   }
 
-  @media screen and (max-width: calc(960px / 2)) {
+  @media screen and (max-width: calc($landscape-width-page-break / 2)) {
     .row {
       flex-direction: column;
     }
