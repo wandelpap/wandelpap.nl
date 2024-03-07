@@ -22,11 +22,25 @@
 </template>
 
 <style lang="scss" scoped>
-nav > ul {
+ul {
   display: flex;
-  gap: 1.25em;
+  gap: 1rem;
   list-style-type: none;
-  margin: 0.25em 0 0.25em 0;
   padding: 0;
+}
+
+li {
+  padding-bottom: 0.25rem;
+}
+
+a,
+a:active {
+  border-bottom: transparent 4px solid;
+  text-decoration: none;
+
+  &:hover,
+  &.router-link-active {
+    border-bottom: var(--md-sys-color-primary) 4px solid;
+  }
 }
 </style>
