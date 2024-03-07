@@ -1,5 +1,7 @@
 $primary-accent: #394432;
 
+$standard-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 $title-font-family: "Gluten", cursive;
 $title-font-weight: 400;
 $title-color: #fff;
@@ -7,3 +9,14 @@ $title-color: #fff;
 $theme-light--background-color: #e2e3e1;
 $theme-light--title-color: rgb(99, 113, 99);
 $theme-light--text-color: #454;
+
+// Material Design
+:root {
+  --md-sys-color-primary: orange;
+  --md-sys-color-primary-container: yellow;
+  --md-sys-color-background: purple;
+  --md-sys-color-surface: green;
+
+  --md-ref-typeface-brand: $title-font-family;
+  --md-ref-typeface-plain: $standard-font-family;
+}

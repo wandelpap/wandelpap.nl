@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined");
 
 html {
   background-color: $primary-accent;
@@ -7,7 +8,7 @@ html {
 body {
   margin: 0;
   background-color: transparent;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $standard-font-family;
   color: lightgray;
   height: 100vh;
   line-height: 1.5em;
@@ -24,7 +25,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 0.1rem;
   line-height: 3rem;
 }
