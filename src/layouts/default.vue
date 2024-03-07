@@ -1,11 +1,5 @@
 <template>
   <div class="page">
-    <!-- <PageBlock class="header" inner-padding="0" inner-padding_mobile="0 3rem">
-      <div>
-        <span class="title">Wandelpap</span>
-      </div>
-      <MainMenu />
-    </PageBlock> -->
     <PageHeader class="header" />
     <div class="leader"></div>
     <div class="main">
