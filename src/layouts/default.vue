@@ -42,7 +42,7 @@
 }
 
 .leader {
-  background-image: url("@@/assets/img/main-header.png");
+  background-image: url("@@/assets/img/main-header.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
