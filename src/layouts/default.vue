@@ -42,9 +42,9 @@
 }
 
 .leader {
-  background-image: url("https://media.istockphoto.com/id/1273473941/nl/foto/kamperen-met-zoon.jpg?s=2048x2048&w=is&k=20&c=UcxH9HFMHARFOp8Inf-EC9okvC-yLCUoVDOHFWJ3pP4=");
+  background-image: url("@@/assets/img/main-header.png");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   height: 65vh;
 
