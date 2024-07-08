@@ -14,7 +14,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@gtm-support/vue-gtm": "^2.2.0",
+    "@gtm-support/vue-gtm": "^3.0.1",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.3.13",
     "@typescript-eslint/eslint-plugin": "^7.10.0",
